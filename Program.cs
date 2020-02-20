@@ -21,7 +21,7 @@ namespace JurassicPark
       if (input == "add")
       {
         Console.Clear();
-        Console.WriteLine("What is the name of the dinosaur you saw?");
+        Console.WriteLine("What is the name of the dinosaur you acquired?");
         var name = Console.ReadLine().ToLower();
         Console.WriteLine("What is the diet type of the dinosaur: Herbivore or Carnivore?");
         var dietType = Console.ReadLine().ToLower();
